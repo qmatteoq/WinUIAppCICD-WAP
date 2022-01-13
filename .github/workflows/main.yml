@@ -33,7 +33,7 @@ jobs:
         $manifest.Package.Identity.Version = "${{env.NBGV_SimpleVersion}}.0"
         $manifest.save("${{env.manifestPath}}")  
       env: 
-        manifestPath: .\WinUIAppCICD-WAP\Package.appxmanifest
+        manifestPath: .\WinUIAppCICD-WAP\WinUIAppCICD-WAP (Package)\Package.appxmanifest
 
     # Add  MSBuild to the PATH: https://github.com/microsoft/setup-msbuild
     - name: Setup MSBuild.exe
