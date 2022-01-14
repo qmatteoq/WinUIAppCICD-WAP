@@ -40,7 +40,6 @@
     <TargetPlatformMinVersion>10.0.17763.0</TargetPlatformMinVersion>
     <AssetTargetFallback>net6.0-windows$(TargetPlatformVersion);$(AssetTargetFallback)</AssetTargetFallback>
     <DefaultLanguage>en-US</DefaultLanguage>
-    <AppxPackageSigningEnabled>True</AppxPackageSigningEnabled>
     <EntryPointProjectUniqueName>..\WinUIAppCICD-WAP\WinUIAppCICD-WAP.csproj</EntryPointProjectUniqueName>
   </PropertyGroup>
   <ItemGroup>
